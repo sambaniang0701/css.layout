@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.hero{
+    height: 35vh;
+    width: 100%;
+    
+}
+#logo{
+    width: 300px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    transition: .3s;
+    color: #00CCB1;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+p{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.col-4{
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 2em;
+    text-align: start;
+    color: white;
+}
+
+.box1{
+    background-color: #00CCB1;
+}
+.box2{
+    background-color: #3D83DF;
+}
+.box3{
+    background-color: black;
+}
+i{
+    color: white;
+}
+
+b{
+
+    color: #00CCB1;
+    font-size: 30px;
+}
+.p1{
+    margin: 30px;
+}
+
+#select1{
+    border: 0px;
+    text-decoration: none;
+    margin: 40px;
+}
+img{
+    width: 80px;
+}
+.toto{
+    display: flex;
+}
+.section1{
+    display: flex;
+    width: 100%;
+    background-color: #D0FAF4;
+}
+.logo2{
+    width: 500px;
+}
+
+.b1 {
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+.b2{
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+.b3{
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+.b4{
+    margin: 20px;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+}
+.flex{
+    flex-wrap: wrap;
+    display: flex;
+}
+.title{
+    text-align: center;
+    color: gray;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+}
+.section4{
+    display: flex;
+    justify-content: center;
+}
+
